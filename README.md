@@ -1,3 +1,9 @@
+# Deploy to gcloud
+
+gcloud builds submit --tag gcr.io/[YOUR_PROJECT_ID]/cra-cloud-run
+
+gcloud  beta run deploy --image gcr.io/ID_OF_YOUR_PROJECT/cra-cloud-run --platform managed 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
